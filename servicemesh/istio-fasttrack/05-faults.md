@@ -65,7 +65,7 @@ Now, [access the application](http://istio-ingress-istio-system.[[HOST_SUBDOMAIN
 If the application’s front page was set to correctly handle delays, we expect it to load within
 approximately 7 seconds. To see the web page response times, open the Developer Tools menu in
 IE, Chrome or Firefox (typically, key combination `Ctrl`+`Shift`+`I` or `Alt`+`Cmd`+`I`), tab Network,
-and reload the bookinfo web page.
+and reload the Bookinfo web page.
 
 You will see and feel that the webpage loads in about 6 seconds:
 
