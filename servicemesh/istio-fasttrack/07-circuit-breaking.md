@@ -69,7 +69,7 @@ for more details on what each configuration parameter does.
 Let's use some simple `curl` commands to send multiple concurrent requests to our application, and witness the
 circuit breaker kicking in opening the circuit.
 
-Execute this to simulate a number of users attampting to access the application simultaneously:
+Execute this to simulate a number of users attempting to access the application simultaneously:
 
 
 ```
@@ -91,7 +91,7 @@ Below that, in the **Service Mesh** section of the dashboard observe that the se
 
 ![5xxs](/openshift/assets/middleware/resilient-apps/5xxs-services.png)
 
-That's the circuit breaker in action, limiting the number of requests to the service. In practice your limits would be much higher
+That's the circuit breaker in action, limiting the number of requests to the service. In practice your limits would be much higher.
 
 ### Stop overloading
 
@@ -213,7 +213,7 @@ This is one additional way to build resilient applications, ones designed to dea
 to avoid it.
 
 In the next step, we will explore rate limiting, which can be useful to give different service levels to
-different customers based on policy and contractual requirements
+different customers based on policy and contractual requirements.
 
 #### Before moving on
 
