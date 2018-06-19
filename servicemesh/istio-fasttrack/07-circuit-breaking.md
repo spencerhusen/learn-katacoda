@@ -29,7 +29,7 @@ See the [Istio Circuit Breaker Spec](https://istio.io/docs/reference/config/traf
 
 ## Enable Circuit Breaker
 Let's add a circuit breaker to the calls to the `ratings` service. Instead of using a _RouteRule_ object,
-circuit breakers in isto are defined as _DestinationPolicy_ objects. DestinationPolicy defines client/caller-side policies
+circuit breakers in Istio are defined as _DestinationPolicy_ objects. DestinationPolicy defines client/caller-side policies
 that determine how to handle traffic bound to a particular destination service. The policy specifies
 configuration for load balancing and circuit breakers.
 
